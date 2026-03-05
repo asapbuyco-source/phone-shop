@@ -22,7 +22,7 @@ export const products: Product[] = [
     brand: "Apple",
     price: 850,
     retailPrice: 1199,
-    image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.ibb.co/JRtQjhgT/iphone-15-pro-max-natural.jpgc?auto=format&fit=crop&q=80&w=800",
     specs: {
       screen: "6.7\" Super Retina XDR",
       processor: "A17 Pro",
@@ -70,7 +70,7 @@ export const products: Product[] = [
     brand: "Apple",
     price: 750,
     retailPrice: 1099,
-    image: "https://images.unsplash.com/photo-1663499482523-1c0c16740a16?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.ibb.co/j9JBbWjV/img-0627jpeg-1705919749-1705919781.webp?auto=format&fit=crop&q=80&w=800",
     specs: {
       screen: "6.7\" Super Retina XDR",
       processor: "A16 Bionic",
@@ -86,7 +86,7 @@ export const products: Product[] = [
     brand: "Google",
     price: 650,
     retailPrice: 999,
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff23?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.ibb.co/23Vv6g42/Google-Pixel-8-Pro-1-Ua0-JDJ3.jpg?auto=format&fit=crop&q=80&w=800",
     specs: {
       screen: "6.7\" LTPO OLED",
       processor: "Google Tensor G3",
