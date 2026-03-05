@@ -34,7 +34,7 @@ export function HomePage() {
               </div>
               <h2 className="text-4xl font-bold text-neutral-900 mb-4">Wholesale Highlights</h2>
               <p className="text-lg text-neutral-600 max-w-2xl">
-                The latest OEM/ODM devices and bulk lots, available for immediate shipment.
+                The latest premium smartphones and bulk lots, available for immediate shipment.
               </p>
             </motion.div>
             

@@ -9,7 +9,7 @@ export function ShopPage() {
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-200 mb-8">
           <h1 className="text-4xl font-bold text-neutral-900 mb-4">Wholesale Catalog</h1>
           <p className="text-lg text-neutral-600 max-w-3xl">
-            Browse our complete inventory of OEM electronics, refurbished units, and bulk components. 
+            Browse our complete inventory of premium smartphones, refurbished units, and bulk lots. 
             All items are factory tested and ready for international shipping.
           </p>
         </div>
@@ -27,7 +27,7 @@ export function ShopPage() {
                 <div>
                   <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Brand / Category</h3>
                   <div className="space-y-2">
-                    {['Apple', 'Samsung', 'Google', 'Xiaomi', 'Huawei', 'Oppo', 'Vivo', 'Motorola', 'Asus', 'Nothing', 'OEM/ODM', 'Refurbished'].map(cat => (
+                    {['Apple', 'Samsung', 'Google', 'Xiaomi', 'Refurbished'].map(cat => (
                       <label key={cat} className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                         <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
                         {cat}

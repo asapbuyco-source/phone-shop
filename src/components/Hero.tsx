@@ -62,7 +62,7 @@ export function Hero() {
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-neutral-400 mb-10 max-w-lg leading-relaxed border-l-2 border-red-600 pl-6">
-              Your direct link to China's mobile market. Source premium smartphones, refurbished devices, and OEM lots at factory-gate prices.
+              Your direct link to China's mobile market. Source premium smartphones, refurbished devices, and bulk lots at factory-gate prices.
             </motion.p>
 
             {/* Mobile-Only Hero Image */}
