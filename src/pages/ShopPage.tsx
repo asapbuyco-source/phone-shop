@@ -7,10 +7,10 @@ export function ShopPage() {
     <div className="bg-neutral-50 min-h-screen pt-8 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-200 mb-8">
-          <h1 className="text-4xl font-bold text-neutral-900 mb-4">Global Wholesale Catalog</h1>
+          <h1 className="text-4xl font-bold text-neutral-900 mb-4">Wholesale Catalog</h1>
           <p className="text-lg text-neutral-600 max-w-3xl">
-            Browse our complete inventory of premium smartphones. All devices are unlocked, 
-            factory tested, and ready for international distribution.
+            Browse our complete inventory of OEM electronics, refurbished units, and bulk components. 
+            All items are factory tested and ready for international shipping.
           </p>
         </div>
 
@@ -25,31 +25,31 @@ export function ShopPage() {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Brand</h3>
+                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Category</h3>
                   <div className="space-y-2">
-                    {['Apple', 'Samsung', 'Google', 'Sony', 'Xiaomi', 'OnePlus'].map(brand => (
-                      <label key={brand} className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
+                    {['OEM Phones', 'Refurbished', 'Components', 'Accessories', 'Tablets'].map(cat => (
+                      <label key={cat} className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                         <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
-                        {brand}
+                        {cat}
                       </label>
                     ))}
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Price Range</h3>
+                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">MOQ Range</h3>
                   <div className="space-y-2">
                     <label className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                       <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
-                      Under $500
+                      Low MOQ (10-50)
                     </label>
                     <label className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                       <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
-                      $500 - $800
+                      Mid Volume (100-500)
                     </label>
                     <label className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                       <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
-                      $800+
+                      Bulk Lots (1000+)
                     </label>
                   </div>
                 </div>

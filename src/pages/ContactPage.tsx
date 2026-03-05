@@ -49,7 +49,7 @@ export function ContactPage() {
                 <div>
                   <h3 className="font-bold text-neutral-900 text-lg mb-1">Headquarters</h3>
                   <p className="text-neutral-600">
-                    Shenzhen Direct Tech Co., Ltd.<br />
+                    Shenzhen Wholesale Factory Ltd.<br />
                     Block B, Seg Plaza, Huaqiang North<br />
                     Futian District, Shenzhen, China 518000
                   </p>

@@ -12,6 +12,7 @@ import { ShopPage } from './pages/ShopPage';
 import { AboutPage } from './pages/AboutPage';
 import { SupportPage } from './pages/SupportPage';
 import { ContactPage } from './pages/ContactPage';
+import { DeliveryPage } from './pages/DeliveryPage';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<ShopPage />} />
+            <Route path="/delivery" element={<DeliveryPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/support" element={<SupportPage />} />
             <Route path="/contact" element={<ContactPage />} />

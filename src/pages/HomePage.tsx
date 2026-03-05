@@ -30,11 +30,11 @@ export function HomePage() {
             >
               <div className="flex items-center gap-2 text-red-600 font-bold mb-2 uppercase tracking-wider text-sm">
                 <Sparkles className="h-4 w-4" />
-                <span>New Arrivals</span>
+                <span>Latest Factory Lots</span>
               </div>
-              <h2 className="text-4xl font-bold text-neutral-900 mb-4">Featured Collection</h2>
+              <h2 className="text-4xl font-bold text-neutral-900 mb-4">Wholesale Highlights</h2>
               <p className="text-lg text-neutral-600 max-w-2xl">
-                The latest flagship devices, available for immediate bulk shipment.
+                The latest OEM/ODM devices and bulk lots, available for immediate shipment.
               </p>
             </motion.div>
             

@@ -9,7 +9,7 @@ export function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Connecting Shenzhen to the World</h1>
           <p className="text-xl text-neutral-400 max-w-3xl mx-auto leading-relaxed">
-            Shenzhen Direct Tech is the premier bridge between China's electronics manufacturing hub and global retailers.
+            Shenzhen Wholesale Factory is the premier bridge between China's electronics manufacturing hub and global retailers.
           </p>
         </div>
       </section>

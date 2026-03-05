@@ -44,9 +44,9 @@ export function CartDrawer() {
           >
             <div className="flex items-center justify-between p-6 border-b border-neutral-100">
               <h2 className="text-xl font-bold flex items-center gap-2">
-                {step === 'cart' && <><ShoppingBag className="h-5 w-5" /> Your Order</>}
-                {step === 'shipping' && <><Truck className="h-5 w-5" /> Shipping Details</>}
-                {step === 'success' && <><CheckCircle className="h-5 w-5 text-green-600" /> Order Confirmed</>}
+                {step === 'cart' && <><ShoppingBag className="h-5 w-5" /> Inquiry List</>}
+                {step === 'shipping' && <><Truck className="h-5 w-5" /> Company Details</>}
+                {step === 'success' && <><CheckCircle className="h-5 w-5 text-green-600" /> Inquiry Sent</>}
               </h2>
               <button 
                 onClick={() => setIsCartOpen(false)}
@@ -62,12 +62,12 @@ export function CartDrawer() {
                   {cart.length === 0 ? (
                     <div className="text-center py-12 text-neutral-500">
                       <ShoppingBag className="h-12 w-12 mx-auto mb-4 opacity-20" />
-                      <p>Your order is empty.</p>
+                      <p>Your inquiry list is empty.</p>
                       <button 
                         onClick={() => setIsCartOpen(false)}
                         className="mt-4 text-red-600 font-medium hover:underline"
                       >
-                        Browse Global Catalog
+                        Browse Wholesale Catalog
                       </button>
                     </div>
                   ) : (
@@ -171,13 +171,13 @@ export function CartDrawer() {
                   >
                     <CheckCircle className="h-10 w-10 text-green-600" />
                   </motion.div>
-                  <h3 className="text-2xl font-bold text-neutral-900 mb-2">Order Received!</h3>
+                  <h3 className="text-2xl font-bold text-neutral-900 mb-2">Inquiry Received</h3>
                   <p className="text-neutral-600 mb-6">
-                    Thank you for your order. Our sales team will contact you within 2 hours with the proforma invoice and shipping details.
+                    Our sales team will review your request and send a Proforma Invoice (PI) with shipping costs within 24 hours.
                   </p>
                   <div className="bg-neutral-50 p-4 rounded-xl text-left text-sm text-neutral-500">
-                    <p>Order Reference: <span className="font-mono font-bold text-neutral-900">SZ-{Math.floor(Math.random() * 10000)}</span></p>
-                    <p className="mt-1">Status: <span className="text-yellow-600 font-medium">Pending Verification</span></p>
+                    <p>Inquiry Ref: <span className="font-mono font-bold text-neutral-900">SZ-{Math.floor(Math.random() * 10000)}</span></p>
+                    <p className="mt-1">Status: <span className="text-yellow-600 font-medium">Awaiting Quote</span></p>
                   </div>
                 </div>
               )}
@@ -195,7 +195,7 @@ export function CartDrawer() {
                     <span>Calculated Next</span>
                   </div>
                   <div className="flex justify-between text-xl font-bold text-neutral-900 pt-4 border-t border-neutral-200">
-                    <span>Total Estimate</span>
+                    <span>Est. Total (Excl. Shipping)</span>
                     <span>${cartTotal.toLocaleString()}</span>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ export function CartDrawer() {
                     onClick={() => setStep('shipping')}
                     className="w-full bg-red-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
                   >
-                    Proceed to Checkout
+                    Request Proforma Invoice
                     <ArrowRight className="h-5 w-5" />
                   </button>
                 ) : (
@@ -226,7 +226,7 @@ export function CartDrawer() {
                         <div className="h-5 w-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                       ) : (
                         <>
-                          Place Order
+                          Submit Inquiry
                           <CheckCircle className="h-5 w-5" />
                         </>
                       )}
@@ -234,7 +234,7 @@ export function CartDrawer() {
                   </div>
                 )}
                 <p className="text-xs text-center text-neutral-400 mt-4">
-                  Secure B2B checkout powered by Shenzhen Direct.
+                  Secure B2B platform powered by Shenzhen Direct.
                 </p>
               </div>
             )}

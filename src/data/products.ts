@@ -18,162 +18,163 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    name: "iPhone 15 Pro Max",
-    brand: "Apple",
-    price: 1099,
-    retailPrice: 1199,
+    name: "OEM Smartphone X15 Pro (Unbranded)",
+    brand: "OEM/ODM",
+    price: 85,
+    retailPrice: 299,
     image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.7\" Super Retina XDR",
-      processor: "A17 Pro",
-      storage: "256GB",
-      camera: "48MP Main | Ultra Wide | Telephoto"
+      screen: "6.7\" HD+ IPS LCD",
+      processor: "MTK Helio G99",
+      storage: "128GB/8GB",
+      camera: "50MP Main AI"
     },
-    minOrder: 5,
-    stock: 150
+    minOrder: 500,
+    stock: 50000
   },
   {
     id: "2",
-    name: "Galaxy S24 Ultra",
-    brand: "Samsung",
-    price: 1150,
-    retailPrice: 1299,
+    name: "Rugged Phone Z8000 Bulk Lot",
+    brand: "Shenzhen Tech",
+    price: 120,
+    retailPrice: 350,
     image: "https://images.unsplash.com/photo-1706606991536-e3204238b3e3?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.8\" QHD+ AMOLED",
-      processor: "Snapdragon 8 Gen 3",
-      storage: "512GB",
-      camera: "200MP Main | 100x Space Zoom"
+      screen: "6.5\" Gorilla Glass 5",
+      processor: "Dimensity 700",
+      storage: "256GB",
+      camera: "Night Vision 20MP"
     },
-    minOrder: 5,
-    stock: 200
+    minOrder: 100,
+    stock: 2000
   },
   {
     id: "3",
-    name: "Pixel 9 Pro",
-    brand: "Google",
-    price: 899,
-    retailPrice: 999,
+    name: "Refurbished iPhone 13 Pro (Grade A)",
+    brand: "Apple (Refurb)",
+    price: 450,
+    retailPrice: 650,
     image: "https://images.unsplash.com/photo-1695415779023-e274b5247963?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.7\" LTPO OLED",
-      processor: "Google Tensor G4",
+      screen: "6.1\" Super Retina",
+      processor: "A15 Bionic",
       storage: "128GB",
-      camera: "50MP Main | 5x Telephoto"
+      camera: "Original Parts"
     },
-    minOrder: 10,
-    stock: 85
+    minOrder: 20,
+    stock: 150
   },
   {
     id: "4",
-    name: "Xperia 1 V",
-    brand: "Sony",
-    price: 1200,
-    retailPrice: 1399,
-    image: "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=800",
+    name: "Android 14 Tablet PC 10.1\"",
+    brand: "OEM",
+    price: 65,
+    retailPrice: 159,
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.5\" 4K HDR OLED",
-      processor: "Snapdragon 8 Gen 2",
-      storage: "256GB",
-      camera: "Exmor T for Mobile"
+      screen: "10.1\" IPS 1920x1200",
+      processor: "Octa-Core 2.0GHz",
+      storage: "64GB/4GB",
+      camera: "8MP Rear / 5MP Front"
     },
-    minOrder: 2,
-    stock: 40
+    minOrder: 200,
+    stock: 10000
   },
   {
     id: "5",
-    name: "iPhone 15",
-    brand: "Apple",
-    price: 729,
-    retailPrice: 799,
-    image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800",
+    name: "Smart Watch Series 9 Clone",
+    brand: "Generic",
+    price: 12,
+    retailPrice: 49,
+    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.1\" Super Retina XDR",
-      processor: "A16 Bionic",
-      storage: "128GB",
-      camera: "48MP Main | Ultra Wide"
+      screen: "1.9\" Infinite Display",
+      processor: "Realtek 8762",
+      storage: "128MB",
+      camera: "Bluetooth Call"
     },
-    minOrder: 10,
-    stock: 300
+    minOrder: 1000,
+    stock: 100000
   },
   {
     id: "6",
-    name: "Z Flip 5",
-    brand: "Samsung",
-    price: 850,
-    retailPrice: 999,
-    image: "https://images.unsplash.com/photo-1692049080643-9f8942078652?auto=format&fit=crop&q=80&w=800",
+    name: "TWS Earbuds Pro 2 (ANC)",
+    brand: "AudioTech",
+    price: 8.50,
+    retailPrice: 39,
+    image: "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.7\" Foldable AMOLED",
-      processor: "Snapdragon 8 Gen 2",
-      storage: "256GB",
-      camera: "12MP Dual Camera"
+      screen: "LED Power Display",
+      processor: "JL6973",
+      storage: "N/A",
+      camera: "Active Noise Cancel"
     },
-    minOrder: 5,
-    stock: 120
+    minOrder: 500,
+    stock: 25000
   },
   {
     id: "7",
-    name: "Xiaomi 14 Ultra",
-    brand: "Xiaomi",
-    price: 950,
-    retailPrice: 1099,
-    image: "https://images.unsplash.com/photo-1660482068338-727b1307693d?auto=format&fit=crop&q=80&w=800",
+    name: "5G Mobile Hotspot Router",
+    brand: "NetLink",
+    price: 45,
+    retailPrice: 120,
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.73\" AMOLED",
-      processor: "Snapdragon 8 Gen 3",
-      storage: "512GB",
-      camera: "Leica Quad Camera"
+      screen: "2.4\" LCD Status",
+      processor: "Qualcomm X55",
+      storage: "N/A",
+      camera: "3000mAh Battery"
     },
-    minOrder: 10,
-    stock: 180
+    minOrder: 50,
+    stock: 500
   },
   {
     id: "8",
-    name: "OnePlus 12",
-    brand: "OnePlus",
-    price: 699,
-    retailPrice: 799,
-    image: "https://images.unsplash.com/photo-1668615025752-94d35eb97087?auto=format&fit=crop&q=80&w=800",
+    name: "GaN Fast Charger 65W",
+    brand: "PowerMaster",
+    price: 6.20,
+    retailPrice: 29,
+    image: "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.82\" ProXDR",
-      processor: "Snapdragon 8 Gen 3",
-      storage: "256GB",
-      camera: "Hasselblad Camera"
+      screen: "N/A",
+      processor: "GaN Tech",
+      storage: "N/A",
+      camera: "2C + 1A Ports"
     },
-    minOrder: 10,
-    stock: 250
+    minOrder: 1000,
+    stock: 80000
   },
   {
     id: "9",
-    name: "Nothing Phone (2)",
-    brand: "Nothing",
-    price: 550,
-    retailPrice: 699,
-    image: "https://images.unsplash.com/photo-1691433774842-88748383a15c?auto=format&fit=crop&q=80&w=800",
+    name: "Gaming Phone Cooler Fan",
+    brand: "CoolTech",
+    price: 4.50,
+    retailPrice: 19,
+    image: "https://images.unsplash.com/photo-1692049080643-9f8942078652?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.7\" OLED",
-      processor: "Snapdragon 8+ Gen 1",
-      storage: "256GB",
-      camera: "50MP Dual Camera"
+      screen: "RGB Light",
+      processor: "Semiconductor",
+      storage: "N/A",
+      camera: "Magnetic Mount"
     },
-    minOrder: 15,
-    stock: 100
+    minOrder: 200,
+    stock: 5000
   },
   {
     id: "10",
-    name: "ROG Phone 8 Pro",
-    brand: "Asus",
-    price: 1050,
-    retailPrice: 1199,
+    name: "LCD Screen for iPhone 14",
+    brand: "RepairParts",
+    price: 22,
+    retailPrice: 60,
     image: "https://images.unsplash.com/photo-1611532736597-b520746436aa?auto=format&fit=crop&q=80&w=800",
     specs: {
-      screen: "6.78\" 165Hz AMOLED",
-      processor: "Snapdragon 8 Gen 3",
-      storage: "1TB",
-      camera: "50MP Gimbal OIS"
+      screen: "OLED Soft",
+      processor: "IC Included",
+      storage: "N/A",
+      camera: "True Tone Support"
     },
-    minOrder: 3,
-    stock: 60
+    minOrder: 50,
+    stock: 1000
   }
 ];
+

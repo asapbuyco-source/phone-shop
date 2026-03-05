@@ -26,8 +26,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <Globe2 className="h-6 w-6 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-xl leading-none tracking-tight">Shenzhen<span className="text-red-600">Direct</span></span>
-                <span className="text-[10px] text-neutral-500 font-medium tracking-widest uppercase">Global Wholesale</span>
+                <span className="font-bold text-xl leading-none tracking-tight">Shenzhen<span className="text-red-600">Factory</span></span>
+                <span className="text-[10px] text-neutral-500 font-medium tracking-widest uppercase">Direct Wholesale</span>
               </div>
             </Link>
 
@@ -38,6 +38,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 className={({ isActive }) => cn("text-sm font-medium transition-colors", isActive ? "text-red-600" : "text-neutral-600 hover:text-red-600")}
               >
                 Global Catalog
+              </NavLink>
+              <NavLink 
+                to="/delivery" 
+                className={({ isActive }) => cn("text-sm font-medium transition-colors", isActive ? "text-red-600" : "text-neutral-600 hover:text-red-600")}
+              >
+                Factory & Shipping
               </NavLink>
               <NavLink 
                 to="/about" 
@@ -96,6 +102,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             >
               <div className="px-4 py-4 space-y-4 flex flex-col">
                 <NavLink to="/shop" className="text-sm font-medium text-neutral-900 py-2">Global Catalog</NavLink>
+                <NavLink to="/delivery" className="text-sm font-medium text-neutral-900 py-2">Factory & Shipping</NavLink>
                 <NavLink to="/about" className="text-sm font-medium text-neutral-900 py-2">About Us</NavLink>
                 <NavLink to="/support" className="text-sm font-medium text-neutral-900 py-2">Support Center</NavLink>
                 <NavLink to="/contact" className="text-sm font-medium text-neutral-900 py-2">Contact</NavLink>
@@ -117,7 +124,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <div className="bg-red-600 p-1.5 rounded">
                   <Globe2 className="h-5 w-5 text-white" />
                 </div>
-                <span className="font-bold text-xl">Shenzhen<span className="text-red-500">Direct</span></span>
+                <span className="font-bold text-xl">Shenzhen<span className="text-red-500">Factory</span></span>
               </div>
               <p className="text-neutral-400 text-sm leading-relaxed max-w-sm">
                 Your direct link to the world's electronics manufacturing hub. We supply retailers, distributors, and enterprises in over 120 countries with factory-direct pricing and reliable logistics.
@@ -159,7 +166,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="border-t border-neutral-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-neutral-500">
-            <p>© 2024 Shenzhen Direct Tech Co., Ltd. All rights reserved.</p>
+            <p>© 2024 Shenzhen Wholesale Factory Ltd. All rights reserved.</p>
             <div className="flex gap-6">
               <span>Privacy Policy</span>
               <span>Terms of Trade</span>

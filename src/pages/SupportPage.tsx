@@ -47,7 +47,7 @@ export function SupportPage() {
               <div className="space-y-4 text-neutral-600">
                 <p>
                   <strong>Warranty Period:</strong> All new devices come with a 1-year manufacturer warranty. 
-                  Refurbished units come with a 90-day Shenzhen Direct warranty.
+                  Refurbished units come with a 90-day Shenzhen Wholesale Factory warranty.
                 </p>
                 <p>
                   <strong>RMA Process:</strong> If you receive a defective unit, contact your account manager within 7 days. 

@@ -55,14 +55,14 @@ export function Hero() {
             </motion.div>
 
             <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8">
-              Factory <br />
+              Shenzhen <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500">
-                Direct.
+                Wholesale.
               </span>
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-neutral-400 mb-10 max-w-lg leading-relaxed border-l-2 border-red-600 pl-6">
-              Source premium smartphones directly from Shenzhen. Unbeatable wholesale rates, verified quality, and express global logistics.
+              Your direct link to China's manufacturing hub. Source electronics, components, and OEM goods at factory-gate prices.
             </motion.p>
 
             {/* Mobile-Only Hero Image */}
