@@ -20,7 +20,7 @@ export const products: Product[] = [
     id: "1",
     name: "iPhone 15 Pro Max (Refurbished - Grade A+)",
     brand: "Apple",
-    price: 850,
+    price: 280,
     retailPrice: 1199,
     image: "https://i.ibb.co/JRtQjhgT/iphone-15-pro-max-natural.jpgc?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -36,7 +36,7 @@ export const products: Product[] = [
     id: "2",
     name: "Samsung Galaxy S24 Ultra (Bulk Pack)",
     brand: "Samsung",
-    price: 920,
+    price: 320,
     retailPrice: 1299,
     image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -52,7 +52,7 @@ export const products: Product[] = [
     id: "3",
     name: "iPhone 15 (New - Bulk)",
     brand: "Apple",
-    price: 680,
+    price: 240,
     retailPrice: 799,
     image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -68,7 +68,7 @@ export const products: Product[] = [
     id: "4",
     name: "iPhone 14 Pro Max (Used - Grade A)",
     brand: "Apple",
-    price: 750,
+    price: 260,
     retailPrice: 1099,
     image: "https://i.ibb.co/j9JBbWjV/img-0627jpeg-1705919749-1705919781.webp?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -84,7 +84,7 @@ export const products: Product[] = [
     id: "5",
     name: "Google Pixel 8 Pro (Global Unlocked)",
     brand: "Google",
-    price: 650,
+    price: 220,
     retailPrice: 999,
     image: "https://i.ibb.co/23Vv6g42/Google-Pixel-8-Pro-1-Ua0-JDJ3.jpg?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -100,7 +100,7 @@ export const products: Product[] = [
     id: "6",
     name: "iPhone 13 (Refurbished - Grade B)",
     brand: "Apple (Refurb)",
-    price: 380,
+    price: 140,
     retailPrice: 599,
     image: "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -116,7 +116,7 @@ export const products: Product[] = [
     id: "7",
     name: "Xiaomi 14 Ultra (China Version/Global ROM)",
     brand: "Xiaomi",
-    price: 780,
+    price: 260,
     retailPrice: 1099,
     image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -132,7 +132,7 @@ export const products: Product[] = [
     id: "8",
     name: "iPhone SE (3rd Gen) (New - Bulk)",
     brand: "Apple",
-    price: 290,
+    price: 110,
     retailPrice: 429,
     image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -148,7 +148,7 @@ export const products: Product[] = [
     id: "9",
     name: "iPhone 14 (Used - Grade B)",
     brand: "Apple",
-    price: 420,
+    price: 180,
     retailPrice: 699,
     image: "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -164,7 +164,7 @@ export const products: Product[] = [
     id: "10",
     name: "iPhone 11 (Refurbished - Grade A)",
     brand: "Apple (Refurb)",
-    price: 210,
+    price: 85,
     retailPrice: 499,
     image: "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -180,7 +180,7 @@ export const products: Product[] = [
     id: "11",
     name: "Samsung Galaxy Z Fold 5 (Bulk)",
     brand: "Samsung",
-    price: 950,
+    price: 340,
     retailPrice: 1799,
     image: "https://images.unsplash.com/photo-1611462985358-60d3498e0364?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -196,7 +196,7 @@ export const products: Product[] = [
     id: "12",
     name: "iPhone 12 Mini (Refurbished - Grade A)",
     brand: "Apple (Refurb)",
-    price: 220,
+    price: 95,
     retailPrice: 429,
     image: "https://images.unsplash.com/photo-1603921326210-6edd2d60ca68?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -212,7 +212,7 @@ export const products: Product[] = [
     id: "13",
     name: "iPhone 15 Plus (New - Bulk)",
     brand: "Apple",
-    price: 750,
+    price: 260,
     retailPrice: 899,
     image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -228,7 +228,7 @@ export const products: Product[] = [
     id: "14",
     name: "iPhone 13 Pro (Used - Grade A)",
     brand: "Apple",
-    price: 550,
+    price: 190,
     retailPrice: 999,
     image: "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?auto=format&fit=crop&q=80&w=800",
     specs: {
@@ -244,7 +244,7 @@ export const products: Product[] = [
     id: "15",
     name: "iPhone XR (Refurbished - Grade B)",
     brand: "Apple (Refurb)",
-    price: 180,
+    price: 75,
     retailPrice: 499,
     image: "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800",
     specs: {
