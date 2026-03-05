@@ -25,9 +25,9 @@ export function ShopPage() {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Category</h3>
+                  <h3 className="text-sm font-bold text-neutral-900 uppercase tracking-wider mb-3">Brand / Category</h3>
                   <div className="space-y-2">
-                    {['OEM Phones', 'Refurbished', 'Components', 'Accessories', 'Tablets'].map(cat => (
+                    {['Apple', 'Samsung', 'Google', 'Xiaomi', 'Huawei', 'Oppo', 'Vivo', 'Motorola', 'Asus', 'Nothing', 'OEM/ODM', 'Refurbished'].map(cat => (
                       <label key={cat} className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 cursor-pointer">
                         <input type="checkbox" className="rounded border-neutral-300 text-red-600 focus:ring-red-500" />
                         {cat}
