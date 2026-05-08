@@ -23,7 +23,7 @@ export function ContactPage() {
             transition={{ delay: 0.1 }}
             className="text-xl text-neutral-300 max-w-2xl mx-auto"
           >
-            Ready to scale your inventory? Our sourcing team in Shenzhen is standing by to assist with custom orders and logistics.
+            Looking to source iPhones and mobile accessories? Our LiangKe team in Shenzhen handles bulk orders, custom requests, and international logistics.
           </motion.p>
         </div>
       </section>
@@ -82,7 +82,7 @@ export function ContactPage() {
             {/* Map Placeholder */}
             <div className="mt-12 bg-neutral-100 rounded-2xl h-64 w-full overflow-hidden relative group">
               <img 
-                src="https://images.unsplash.com/photo-1548603908-596956747206?auto=format&fit=crop&q=80&w=1000" 
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000" 
                 alt="Shenzhen Map" 
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
               />

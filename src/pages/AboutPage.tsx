@@ -7,9 +7,9 @@ export function AboutPage() {
       <section className="relative py-24 bg-neutral-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Connecting Shenzhen to the World</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">LiangKe Electronics - Direct from Factory</h1>
           <p className="text-xl text-neutral-400 max-w-3xl mx-auto leading-relaxed">
-            Shenzhen Wholesale Factory is the premier bridge between China's electronics manufacturing hub and global retailers.
+            LiangKe Electronics Factory is Shenzhen's leading wholesale distributor of premium iPhones, Samsung Galaxy devices, and mobile accessories for global retailers.
           </p>
         </div>
       </section>
@@ -45,25 +45,23 @@ export function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-neutral-900 mb-6">Our Mission</h2>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
-                We believe that accessing the world's best electronics shouldn't be complicated. 
-                Our mission is to simplify the wholesale supply chain, providing transparency, 
-                quality assurance, and reliable logistics to businesses of all sizes.
+                At LiangKe Electronics, we connect the world's retailers directly to premium smartphone inventory. 
+                We specialize in factory-fresh iPhones, Samsung Galaxy models, and premium mobile accessories at prices that beat the competition.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Located in the heart of Shenzhen's Huaqiangbei district, we have direct relationships 
-                with major manufacturers, allowing us to offer factory-direct pricing that 
-                our competitors simply can't match.
+                Based in Shenzhen's electronics district, our factory has direct supplier relationships and bulk stock access. 
+                We offer authentic, quality-assured devices with fast international shipping and dedicated wholesale support.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1565514020176-db792f9862eb?auto=format&fit=crop&q=80&w=600" 
-                alt="Shenzhen Skyline" 
+                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600" 
+                alt="LiangKe Factory Floor" 
                 className="rounded-2xl shadow-lg w-full h-64 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" 
-                alt="Quality Control" 
+                src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600" 
+                alt="Smartphone Production Line" 
                 className="rounded-2xl shadow-lg w-full h-64 object-cover mt-8"
               />
             </div>

@@ -26,8 +26,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <Globe2 className="h-6 w-6 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-xl leading-none tracking-tight">Shenzhen<span className="text-red-600">Factory</span></span>
-                <span className="text-[10px] text-neutral-500 font-medium tracking-widest uppercase">Direct Wholesale</span>
+                <span className="font-bold text-xl leading-none tracking-tight">LiangKe<span className="text-red-600">Electronics</span></span>
+                <span className="text-[10px] text-neutral-500 font-medium tracking-widest uppercase">Factory Direct</span>
               </div>
             </Link>
 

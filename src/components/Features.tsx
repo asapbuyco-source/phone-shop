@@ -3,23 +3,23 @@ import { motion } from 'motion/react';
 
 const features = [
   {
-    name: 'Shenzhen Logistics',
-    description: 'Direct shipping from our Shenzhen warehouse to 120+ countries via DHL/FedEx.',
+    name: 'Factory Direct Prices',
+    description: 'Direct from Shenzhen factory warehouse to 120+ countries via DHL/FedEx.',
     icon: Globe,
   },
   {
-    name: 'Factory QC',
-    description: '30-point inspection process on every unit before it leaves the facility.',
+    name: 'Quality Verified',
+    description: '30-point inspection process on every iPhone and device before shipment.',
     icon: ShieldCheck,
   },
   {
-    name: 'Bank Transfer / Crypto',
-    description: 'Secure payment options including T/T, USDT, and Letter of Credit.',
+    name: 'Flexible Payments',
+    description: 'Bank Transfer, USDT, Letter of Credit, and secure payment options.',
     icon: CreditCard,
   },
   {
-    name: 'Express Dispatch',
-    description: 'Stock items shipped within 24 hours. Tracking provided immediately.',
+    name: '24-Hour Dispatch',
+    description: 'Stock items shipped within 24 hours. Real-time tracking on all orders.',
     icon: Truck,
   },
 ];
@@ -39,7 +39,7 @@ export function Features() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-neutral-900"
           >
-            Your Partner in China
+            Why Choose LiangKe
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -48,7 +48,7 @@ export function Features() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto"
           >
-            Bridging the gap between Shenzhen factories and your business with transparency and speed.
+            Direct from Shenzhen factory with premium iPhones, Samsung devices, and accessories backed by quality assurance.
           </motion.p>
         </div>
         

@@ -83,7 +83,7 @@ export function DeliveryPage() {
             >
               <div className="aspect-video rounded-2xl overflow-hidden bg-neutral-100 relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1565514020176-dbf2277e4952?auto=format&fit=crop&q=80&w=1000" 
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1000" 
                   alt="Factory Assembly Line" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -135,7 +135,7 @@ export function DeliveryPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-video rounded-xl overflow-hidden bg-neutral-100 relative group">
                   <img 
-                    src="https://images.unsplash.com/photo-1566576912902-199df136d64b?auto=format&fit=crop&q=80&w=600" 
+                    src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600" 
                     alt="Shipping Container" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -145,7 +145,7 @@ export function DeliveryPage() {
                 </div>
                 <div className="aspect-video rounded-xl overflow-hidden bg-neutral-100 relative group">
                   <img 
-                    src="https://images.unsplash.com/photo-1494412574643-35d324698420?auto=format&fit=crop&q=80&w=600" 
+                    src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&q=80&w=600" 
                     alt="Warehouse Storage" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />

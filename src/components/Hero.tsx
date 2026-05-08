@@ -50,19 +50,19 @@ export function Hero() {
               </span>
               <span className="flex items-center gap-1.5 text-yellow-400 text-sm font-medium bg-yellow-400/10 px-3 py-1.5 rounded-full border border-yellow-400/20 backdrop-blur-sm">
                 <Star className="h-3.5 w-3.5 fill-current" />
-                #1 Shenzhen Exporter
+                #1 China Electronics Factory
               </span>
             </motion.div>
 
             <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8">
-              Shenzhen <br />
+              LiangKe <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-500">
-                Wholesale.
+                Electronics.
               </span>
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-neutral-400 mb-10 max-w-lg leading-relaxed border-l-2 border-red-600 pl-6">
-              Your direct link to China's mobile market. Source premium smartphones, refurbished devices, and bulk lots at factory-gate prices.
+              Direct from our Shenzhen factory. Source the latest iPhones, Samsung Galaxy, accessories and bulk devices at wholesale prices.
             </motion.p>
 
             {/* Mobile-Only Hero Image */}
@@ -72,8 +72,8 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent z-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800" 
-                alt="Latest Smartphones" 
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800" 
+                alt="LiangKe Electronics Factory" 
                 className="rounded-2xl shadow-2xl border border-neutral-800 w-full object-cover h-64 sm:h-80"
               />
               <div className="absolute bottom-4 left-4 z-20 flex items-center gap-2 bg-neutral-900/80 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10">
@@ -136,8 +136,8 @@ export function Hero() {
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800" 
-                    alt="Latest Smartphones" 
+                    src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=800" 
+                    alt="LiangKe Factory Manufacturing" 
                     className="rounded-[2.5rem] shadow-2xl border-[12px] border-neutral-950 rotate-[-6deg] hover:rotate-0 transition-transform duration-700 w-3/4 mx-auto relative z-20"
                   />
                 </motion.div>
