@@ -43,7 +43,7 @@ export function Newsletter() {
           transition={{ delay: 0.1 }}
           className="text-4xl md:text-5xl font-bold mb-6 tracking-tight"
         >
-          Shenzhen Market <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">Alerts</span>
+          LiangKeElectronics <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">Alerts</span>
         </motion.h2>
         
         <motion.p 

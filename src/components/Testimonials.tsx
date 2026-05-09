@@ -7,7 +7,7 @@ const testimonials = [
     name: "Carlos Rodriguez",
     role: "Procurement Manager",
     company: "TechRetail SA, Mexico",
-    content: "ShenzhenDirect has transformed our supply chain. The quality control is impeccable, and shipping to Mexico City takes just 5 days. We've reduced our return rates by 40%.",
+    content: "LiangKe Electronics has transformed our supply chain. The quality control is impeccable, and shipping to Mexico City takes just 5 days. We've reduced our return rates by 40%.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
   },
@@ -25,7 +25,7 @@ const testimonials = [
     name: "David Okafor",
     role: "Director of Operations",
     company: "Lagos Gadgets, Nigeria",
-    content: "Trust was our biggest concern with overseas suppliers. ShenzhenDirect's video inspection reports for every batch gave us peace of mind. Highly recommended for bulk buyers.",
+    content: "Trust was our biggest concern with overseas suppliers. LiangKe Electronics' video inspection reports for every batch gave us peace of mind. Highly recommended for bulk buyers.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
   }

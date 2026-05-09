@@ -62,7 +62,7 @@ export function Hero() {
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-neutral-400 mb-10 max-w-lg leading-relaxed border-l-2 border-red-600 pl-6">
-              Direct from our Shenzhen factory. Source the latest iPhones, Samsung Galaxy, accessories and bulk devices at wholesale prices.
+              Direct from our Guangdong factory. Source the latest iPhones, Samsung Galaxy, accessories and bulk devices at wholesale prices.
             </motion.p>
 
             {/* Mobile-Only Hero Image */}

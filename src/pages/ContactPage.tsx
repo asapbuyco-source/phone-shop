@@ -23,7 +23,7 @@ export function ContactPage() {
             transition={{ delay: 0.1 }}
             className="text-xl text-neutral-300 max-w-2xl mx-auto"
           >
-            Looking to source iPhones and mobile accessories? Our LiangKe team in Shenzhen handles bulk orders, custom requests, and international logistics.
+            Looking to source iPhones and mobile accessories? Our LiangKe team handles bulk orders, custom requests, and international logistics.
           </motion.p>
         </div>
       </section>
@@ -49,9 +49,9 @@ export function ContactPage() {
                 <div>
                   <h3 className="font-bold text-neutral-900 text-lg mb-1">Headquarters</h3>
                   <p className="text-neutral-600">
-                    Shenzhen Wholesale Factory Ltd.<br />
+                    LiangKe Electronics Factory Ltd.<br />
                     Block B, Seg Plaza, Huaqiang North<br />
-                    Futian District, Shenzhen, China 518000
+                    Futian District, Guangdong, China 518000
                   </p>
                 </div>
               </div>

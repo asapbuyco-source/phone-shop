@@ -22,7 +22,7 @@ export function DeliveryPage() {
           >
             <h1 className="text-5xl font-bold mb-6 tracking-tight">Global Logistics & Delivery</h1>
             <p className="text-xl text-neutral-300 leading-relaxed">
-              From our Shenzhen factory floor to your warehouse. We handle the complexities of international freight, customs clearance, and bulk packaging.
+              From our Guangdong factory floor to your warehouse. We handle the complexities of international freight, customs clearance, and bulk packaging.
             </p>
           </motion.div>
         </div>
@@ -40,7 +40,7 @@ export function DeliveryPage() {
             {
               icon: <Container className="h-8 w-8 text-red-600" />,
               title: "Container Loading",
-              desc: "Direct loading at our Shenzhen facility. We support FCL (Full Container Load) and LCL (Less than Container Load) shipments."
+              desc: "Direct loading at our Guangdong facility. We support FCL (Full Container Load) and LCL (Less than Container Load) shipments."
             },
             {
               icon: <Ship className="h-8 w-8 text-red-600" />,

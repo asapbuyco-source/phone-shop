@@ -9,7 +9,7 @@ export function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">LiangKe Electronics - Direct from Factory</h1>
           <p className="text-xl text-neutral-400 max-w-3xl mx-auto leading-relaxed">
-            LiangKe Electronics Factory is Shenzhen's leading wholesale distributor of premium iPhones, Samsung Galaxy devices, and mobile accessories for global retailers.
+            LiangKe Electronics Factory is Guangdong's leading wholesale distributor of premium iPhones, Samsung Galaxy devices, and mobile accessories for global retailers.
           </p>
         </div>
       </section>
@@ -49,7 +49,7 @@ export function AboutPage() {
                 We specialize in factory-fresh iPhones, Samsung Galaxy models, and premium mobile accessories at prices that beat the competition.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Based in Shenzhen's electronics district, our factory has direct supplier relationships and bulk stock access. 
+                Based in Guangdong's electronics district, our factory has direct supplier relationships and bulk stock access. 
                 We offer authentic, quality-assured devices with fast international shipping and dedicated wholesale support.
               </p>
             </div>

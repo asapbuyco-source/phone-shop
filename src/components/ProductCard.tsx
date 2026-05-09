@@ -61,7 +61,7 @@ export const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
           <h3 className="text-xl font-bold text-neutral-900 mb-1">{product.name}</h3>
           <div className="flex items-baseline gap-2">
             <span className="text-2xl font-bold text-red-600">${product.price}</span>
-            <span className="text-xs text-neutral-500 font-medium bg-neutral-100 px-2 py-0.5 rounded">FOB Shenzhen</span>
+            <span className="text-xs text-neutral-500 font-medium bg-neutral-100 px-2 py-0.5 rounded">FOB Guangdong</span>
           </div>
           <div className="text-sm text-neutral-400 mt-1">Est. Resale: ${product.retailPrice}</div>
         </div>

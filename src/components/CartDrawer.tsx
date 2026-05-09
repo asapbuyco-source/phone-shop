@@ -234,7 +234,7 @@ export function CartDrawer() {
                   </div>
                 )}
                 <p className="text-xs text-center text-neutral-400 mt-4">
-                  Secure B2B platform powered by Shenzhen Direct.
+                  Secure B2B platform powered by LiangKe Electronics.
                 </p>
               </div>
             )}

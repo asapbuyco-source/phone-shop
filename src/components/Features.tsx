@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 const features = [
   {
     name: 'Factory Direct Prices',
-    description: 'Direct from Shenzhen factory warehouse to 120+ countries via DHL/FedEx.',
+    description: 'Direct from Guangdong factory warehouse to 120+ countries via DHL/FedEx.',
     icon: Globe,
   },
   {
@@ -48,7 +48,7 @@ export function Features() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto"
           >
-            Direct from Shenzhen factory with premium iPhones, Samsung devices, and accessories backed by quality assurance.
+            Direct from Guangdong factory with premium iPhones, Samsung devices, and accessories backed by quality assurance.
           </motion.p>
         </div>
         
