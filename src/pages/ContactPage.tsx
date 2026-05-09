@@ -73,7 +73,7 @@ export function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-neutral-900 text-lg mb-1">Call / WhatsApp</h3>
-                  <p className="text-neutral-600 mb-2">+86 755 1234 5678</p>
+                  <p className="text-neutral-600 mb-2">+1 728 226 0298</p>
                   <p className="text-neutral-500 text-sm">Mon-Sat, 9:00 AM - 8:00 PM (GMT+8)</p>
                 </div>
               </div>

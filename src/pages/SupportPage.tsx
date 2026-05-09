@@ -92,7 +92,7 @@ export function SupportPage() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-red-500" />
-                  <span className="font-mono">+86 755 1234 5678</span>
+                  <span className="font-mono">+1 728 226 0298</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-green-500 w-5 h-5 rounded-full flex items-center justify-center">

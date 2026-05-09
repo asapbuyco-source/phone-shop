@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingBag, Menu, X, Smartphone, Search, Globe2 } from 'lucide-react';
+import { ShoppingBag, Menu, X, Smartphone, Search, Globe2, MessageCircle } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../lib/utils';
@@ -174,6 +174,19 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </div>
         </div>
       </footer>
+
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/17282260298"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
+      >
+        <MessageCircle className="h-7 w-7" />
+        <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-neutral-900 text-white text-sm px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+          Chat with us
+        </span>
+      </a>
     </div>
   );
 }
